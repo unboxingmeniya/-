@@ -1,0 +1,396 @@
+<battery_usage_stats custom_component_0="GPU" includes_proc_state_data="true" includes_screen_state_data="false" includes_power_state_data="false" start_timestamp="1766436412533" end_timestamp="1766436528543" duration="116010" battery_capacity="1000.0" discharge_pct="1" discharge_lower="45.3" discharge_upper="45.3" discharge_duration="45865" battery_remaining="-1" charge_remaining="-1">
+<aggregate scope="0" power="45.3">
+<power_components>
+<component id="0" power="0.001737" />
+<component id="1" power="9.14E-4" duration="32918" />
+<component id="8" power="9.67E-4" />
+<component id="10" power="6.22E-4" duration="22427" />
+<component id="18" duration="107586" />
+<component id="1000" power="9.67E-4" />
+</power_components>
+</aggregate>
+<aggregate scope="1" power="0.003207000000000001">
+<power_components>
+<component id="0" power="0.001737" />
+<component id="1" power="8.480000000000004E-4" />
+<component id="10" power="6.22E-4" />
+</power_components>
+</aggregate>
+<uid uid="10408">
+<power_components>
+<component id="0" power="0.001737" />
+<component id="1" power="9.0E-6" />
+<component id="1" process_state="1" power="9.0E-6" />
+<component id="18" duration="32575" />
+<component id="18" process_state="1" duration="32475" />
+<component id="18" process_state="4" duration="100" />
+</power_components>
+</uid>
+<uid uid="1000">
+<power_components>
+<component id="1" power="3.4E-4" />
+<component id="1" process_state="2" power="3.4E-4" />
+<component id="10" power="6.22E-4" duration="22427" />
+<component id="10" process_state="2" power="6.22E-4" duration="22427" />
+</power_components>
+</uid>
+<uid uid="10364">
+<power_components>
+<component id="1" power="1.4499999999999997E-4" />
+<component id="1" process_state="2" power="1.4099999999999998E-4" />
+<component id="1" process_state="4" power="4.0E-6" />
+<component id="18" duration="31158" />
+<component id="18" process_state="2" duration="29185" />
+<component id="18" process_state="4" duration="1973" />
+</power_components>
+</uid>
+<uid uid="10409">
+<power_components>
+<component id="1" power="6.3E-5" />
+<component id="1" process_state="2" power="6.3E-5" />
+</power_components>
+</uid>
+<uid uid="0">
+<power_components>
+<component id="1" power="5.7E-5" />
+<component id="1" process_state="2" power="5.7E-5" />
+</power_components>
+</uid>
+<uid uid="1001">
+<power_components>
+<component id="1" power="3.0E-5" />
+<component id="1" process_state="2" power="3.0E-5" />
+</power_components>
+</uid>
+<uid uid="10365">
+<power_components>
+<component id="1" power="2.9E-5" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="1" process_state="3" power="2.8E-5" />
+<component id="18" duration="24177" />
+<component id="18" process_state="3" duration="22382" />
+<component id="18" process_state="4" duration="1795" />
+</power_components>
+</uid>
+<uid uid="10363">
+<power_components>
+<component id="1" power="1.9999999999999998E-5" />
+<component id="1" process_state="2" power="9.999999999999999E-6" />
+<component id="1" process_state="4" power="1.0E-5" />
+<component id="18" duration="22607" />
+<component id="18" process_state="2" duration="6795" />
+<component id="18" process_state="4" duration="15812" />
+</power_components>
+</uid>
+<uid uid="10381">
+<power_components>
+<component id="1" power="1.9E-5" />
+<component id="1" process_state="2" power="4.0E-6" />
+<component id="1" process_state="3" power="1.5E-5" />
+<component id="18" duration="30329" />
+<component id="18" process_state="2" duration="5" />
+<component id="18" process_state="3" duration="30000" />
+<component id="18" process_state="4" duration="324" />
+</power_components>
+</uid>
+<uid uid="10360">
+<power_components>
+<component id="1" power="1.7E-5" />
+<component id="1" process_state="2" power="7.000000000000001E-6" />
+<component id="1" process_state="4" power="1.0E-5" />
+<component id="18" duration="14948" />
+<component id="18" process_state="2" duration="2370" />
+<component id="18" process_state="4" duration="12578" />
+</power_components>
+</uid>
+<uid uid="10391">
+<power_components>
+<component id="1" power="1.5000000000000002E-5" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="1" process_state="3" power="1.0E-5" />
+<component id="1" process_state="4" power="4.0E-6" />
+<component id="18" duration="19441" />
+<component id="18" process_state="2" duration="388" />
+<component id="18" process_state="3" duration="13464" />
+<component id="18" process_state="4" duration="5589" />
+</power_components>
+</uid>
+<uid uid="10260">
+<power_components>
+<component id="1" power="1.2E-5" />
+<component id="1" process_state="3" power="1.2E-5" />
+<component id="18" duration="28900" />
+<component id="18" process_state="3" duration="28617" />
+<component id="18" process_state="4" duration="283" />
+</power_components>
+</uid>
+<uid uid="10382">
+<power_components>
+<component id="1" power="1.1999999999999999E-5" />
+<component id="1" process_state="2" power="9.999999999999999E-6" />
+<component id="1" process_state="4" power="2.0E-6" />
+<component id="18" duration="25339" />
+<component id="18" process_state="2" duration="22817" />
+<component id="18" process_state="4" duration="2522" />
+</power_components>
+</uid>
+<uid uid="10334">
+<power_components>
+<component id="1" power="7.0E-6" />
+<component id="1" process_state="4" power="7.0E-6" />
+<component id="18" duration="20193" />
+<component id="18" process_state="2" duration="357" />
+<component id="18" process_state="4" duration="19836" />
+</power_components>
+</uid>
+<uid uid="10406">
+<power_components>
+<component id="1" power="7.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="1" process_state="3" power="6.0E-6" />
+<component id="18" duration="28730" />
+<component id="18" process_state="3" duration="28730" />
+</power_components>
+</uid>
+<uid uid="10362">
+<power_components>
+<component id="1" power="6.0E-6" />
+<component id="1" process_state="2" power="3.0E-6" />
+<component id="1" process_state="4" power="3.0E-6" />
+<component id="18" duration="25391" />
+<component id="18" process_state="2" duration="1607" />
+<component id="18" process_state="4" duration="23784" />
+</power_components>
+</uid>
+<uid uid="10373">
+<power_components>
+<component id="1" power="5.0E-6" />
+<component id="1" process_state="4" power="5.0E-6" />
+<component id="18" duration="6833" />
+<component id="18" process_state="2" duration="716" />
+<component id="18" process_state="4" duration="6117" />
+</power_components>
+</uid>
+<uid uid="1066">
+<power_components>
+<component id="1" power="5.0E-6" />
+<component id="1" process_state="2" power="5.0E-6" />
+</power_components>
+</uid>
+<uid uid="10394">
+<power_components>
+<component id="1" power="4.9999999999999996E-6" />
+<component id="1" process_state="2" power="3.0E-6" />
+<component id="1" process_state="4" power="2.0E-6" />
+<component id="18" duration="12696" />
+<component id="18" process_state="2" duration="81" />
+<component id="18" process_state="4" duration="12615" />
+</power_components>
+</uid>
+<uid uid="10352">
+<power_components>
+<component id="1" power="4.0E-6" />
+<component id="1" process_state="2" power="3.0E-6" />
+<component id="1" process_state="4" power="1.0E-6" />
+<component id="18" duration="24218" />
+<component id="18" process_state="2" duration="1025" />
+<component id="18" process_state="4" duration="23193" />
+</power_components>
+</uid>
+<uid uid="10372">
+<power_components>
+<component id="1" power="4.0E-6" />
+<component id="1" process_state="3" power="3.0E-6" />
+<component id="1" process_state="4" power="1.0E-6" />
+<component id="18" duration="20738" />
+<component id="18" process_state="2" duration="1694" />
+<component id="18" process_state="3" duration="9905" />
+<component id="18" process_state="4" duration="9139" />
+</power_components>
+</uid>
+<uid uid="10375">
+<power_components>
+<component id="1" power="4.0E-6" />
+<component id="1" process_state="4" power="4.0E-6" />
+<component id="18" duration="8829" />
+<component id="18" process_state="4" duration="8829" />
+</power_components>
+</uid>
+<uid uid="10423">
+<power_components>
+<component id="1" power="4.0E-6" />
+<component id="1" process_state="1" power="2.0E-6" />
+<component id="1" process_state="2" power="2.0E-6" />
+<component id="18" duration="24138" />
+<component id="18" process_state="1" duration="21707" />
+<component id="18" process_state="4" duration="2431" />
+</power_components>
+</uid>
+<uid uid="1046">
+<power_components>
+<component id="1" power="3.0E-6" />
+<component id="1" process_state="2" power="3.0E-6" />
+</power_components>
+</uid>
+<uid uid="1086">
+<power_components>
+<component id="1" power="3.0E-6" />
+<component id="1" process_state="2" power="3.0E-6" />
+</power_components>
+</uid>
+<uid uid="10266">
+<power_components>
+<component id="1" power="2.0E-6" />
+<component id="1" process_state="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="18" duration="23945" />
+<component id="18" process_state="1" duration="23505" />
+<component id="18" process_state="4" duration="440" />
+</power_components>
+</uid>
+<uid uid="10347">
+<power_components>
+<component id="1" power="2.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="1" process_state="4" power="1.0E-6" />
+<component id="18" duration="3298" />
+<component id="18" process_state="2" duration="675" />
+<component id="18" process_state="4" duration="2623" />
+</power_components>
+</uid>
+<uid uid="10421">
+<power_components>
+<component id="1" power="2.0E-6" />
+<component id="1" process_state="2" power="2.0E-6" />
+<component id="18" duration="17883" />
+<component id="18" process_state="2" duration="690" />
+<component id="18" process_state="4" duration="17193" />
+</power_components>
+</uid>
+<uid uid="1013">
+<power_components>
+<component id="1" power="2.0E-6" />
+<component id="1" process_state="2" power="2.0E-6" />
+</power_components>
+</uid>
+<uid uid="1036">
+<power_components>
+<component id="1" power="2.0E-6" />
+<component id="1" process_state="2" power="2.0E-6" />
+</power_components>
+</uid>
+<uid uid="1073">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="1" power="1.0E-6" />
+<component id="18" duration="32950" />
+<component id="18" process_state="1" duration="32950" />
+</power_components>
+</uid>
+<uid uid="10271">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="4" power="1.0E-6" />
+<component id="18" duration="32278" />
+<component id="18" process_state="2" duration="113" />
+<component id="18" process_state="4" duration="32165" />
+</power_components>
+</uid>
+<uid uid="10275">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="18" duration="9690" />
+<component id="18" process_state="2" duration="64" />
+<component id="18" process_state="4" duration="9626" />
+</power_components>
+</uid>
+<uid uid="10302">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="18" duration="18941" />
+<component id="18" process_state="2" duration="17103" />
+<component id="18" process_state="4" duration="1838" />
+</power_components>
+</uid>
+<uid uid="10349">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="18" duration="21375" />
+<component id="18" process_state="2" duration="10640" />
+<component id="18" process_state="4" duration="10735" />
+</power_components>
+</uid>
+<uid uid="10374">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="18" duration="4431" />
+<component id="18" process_state="2" duration="85" />
+<component id="18" process_state="4" duration="4346" />
+</power_components>
+</uid>
+<uid uid="10419">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="1" power="1.0E-6" />
+<component id="18" duration="25033" />
+<component id="18" process_state="1" duration="8407" />
+<component id="18" process_state="2" duration="53" />
+<component id="18" process_state="4" duration="16573" />
+</power_components>
+</uid>
+<uid uid="10430">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+<component id="18" duration="19617" />
+<component id="18" process_state="2" duration="18092" />
+<component id="18" process_state="4" duration="1525" />
+</power_components>
+</uid>
+<uid uid="10434">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="4" power="1.0E-6" />
+<component id="18" duration="31861" />
+<component id="18" process_state="2" duration="817" />
+<component id="18" process_state="4" duration="31044" />
+</power_components>
+</uid>
+<uid uid="10435">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="4" power="1.0E-6" />
+<component id="18" duration="14548" />
+<component id="18" process_state="1" duration="353" />
+<component id="18" process_state="2" duration="205" />
+<component id="18" process_state="4" duration="13990" />
+</power_components>
+</uid>
+<uid uid="10440">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="3" power="1.0E-6" />
+<component id="18" duration="24621" />
+<component id="18" process_state="1" duration="12" />
+<component id="18" process_state="2" duration="29" />
+<component id="18" process_state="3" duration="24105" />
+<component id="18" process_state="4" duration="475" />
+</power_components>
+</uid>
+<uid uid="1040">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+</power_components>
+</uid>
+<uid uid="1041">
+<power_components>
+<component id="1" power="1.0E-6" />
+<component id="1" process_state="2" power="1.0E-6" />
+</power_components>
+</uid>
+</battery_usage_stats>
