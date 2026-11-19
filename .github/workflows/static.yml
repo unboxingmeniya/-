@@ -1,0 +1,236 @@
+# <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>𝐓𝐇𝐄 𝐍𝐄𝐗𝐔𝐒 𝐒𝐐𝐔𝐀𝐃 †❕ | Member Registration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   THE NEXUS SQUAD — Premium Dark Gaming Theme
+   ============================================================ */
+:root{
+  --bg:#070707;
+  --bg2:#0d0d0f;
+  --card:#121216;
+  --card2:#17171d;
+  --red:#ff2d2d;
+  --red-glow:rgba(255,45,45,.55);
+  --white:#f5f5f5;
+  --muted:#9a9aa5;
+  --border:rgba(255,255,255,.08);
+  --green:#22c55මෙන්න full code එක — copy කරලා `nexus-squad.html` කියලා save කරගන්න (මුළු file එම file link එකෙනුත් ගන්න පුළුවන්):
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>𝐓𝐇𝐄 𝐍𝐄𝐗𝐔𝐒 𝐒𝐐𝐔𝐀𝐃 †❕ | Member Registration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   THE NEXUS SQUAD — Premium Dark Gaming Theme
+   ============================================================ */
+:root{
+  --bg:#070707;
+  --bg2:#0d0d0f;
+  --card:#121216;
+  --card2:#17171d;
+  --red:#ff2d2d;
+  --red-glow:rgba(255,45,45,.55);
+  --white:#f5f5f5;
+  --muted:#9a9aa5;
+  --border:rgba(255,255,255,.08);
+  --green:#22c55e;
+  --amber:#f59e0b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Rajdhani',sans-serif;
+  background:var(--bg);
+  color:var(--white);
+  min-height:100vh;
+  overflow-x:hidden;
+}
+/* Animated background grid + glow */
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,45,45,.10), transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(255,45,45,.08), transparent 45%),
+    linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size:100% 100%,100% 100%,44px 44px,44px 44px;
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.75));
+}
+h1,h2,h3,.logo-font{font-family:'Orbitron',sans-serif}
+
+/* ================= NAVBAR ================= */
+nav{
+  position:sticky;top:0;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:14px 5%;
+  background:rgba(7,7,7,.82);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--border);
+}
+.nav-logo{
+  font-family:'Orbitron',sans-serif;font-weight:900;letter-spacing:2px;
+  font-size:clamp(.85rem,2.4vw,1.15rem);
+  background:linear-gradient(90deg,#fff,#ff6b6b,#fff);
+  background-size:200% auto;-webkit-background-clip:text;background-clip:text;
+  -webkit-text-fill-color:transparent;
+  animation:shine 4s linear infinite;cursor:pointer;
+}
+@keyframes shine{to{background-position:200% center}}
+.nav-links{display:flex;gap:10px;align-items:center}
+.nav-btn{
+  background:transparent;border:1px solid var(--border);color:var(--muted);
+  padding:8px 18px;border-radius:8px;font-family:'Rajdhani';font-weight:600;
+  font-size:.95rem;letter-spacing:1px;cursor:pointer;transition:.25s;
+}
+.nav-btn:hover,.nav-btn.active{color:#fff;border-color:var(--red);box-shadow:0 0 18px var(--red-glow)}
+.nav-btn.admin{border-color:rgba(255,45,45,.5);color:#ff8585}
+
+/* ================= SECTIONS ================= */
+.section{display:none;min-height:calc(100vh - 64px);padding:48px 5%;animation:fadeUp .5s ease both}
+.section.active{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.container{max-width:920px;margin:0 auto}
+
+/* ================= HOMEPAGE ================= */
+.hero{
+  min-height:calc(100vh - 64px);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;gap:26px;
+}
+.hero-badge{
+  border:1px solid rgba(255,45,45,.4);color:#ff9b9b;padding:6px 20px;
+  border-radius:99px;font-size:.8rem;letter-spacing:4px;font-weight:600;
+  box-shadow:0 0 20px rgba(255,45,45,.15) inset;
+  animation:pulseGlow 2.4s ease-in-out infinite;
+}
+@keyframes pulseGlow{50%{box-shadow:0 0 30px rgba(255,45,45,.35) inset}}
+.hero h1{
+  font-size:clamp(1.6rem,6vw,3.6rem);font-weight:900;letter-spacing:4px;line-height:1.25;
+  text-shadow:0 0 30px var(--red-glow),0 0 60px rgba(255,45,45,.25);
+}
+.hero .subtitle{
+  color:var(--muted);letter-spacing:6px;font-size:clamp(.8rem,2.5vw,1.15rem);
+  font-weight:600;text-transform:uppercase;
+}
+.btn-join{
+  margin-top:12px;font-family:'Orbitron';font-weight:700;letter-spacing:3px;
+  font-size:clamp(.95rem,2.6vw,1.25rem);color:#fff;
+  background:linear-gradient(135deg,#ff2d2d,#8f0000);
+  border:none;padding:18px 54px;border-radius:12px;cursor:pointer;
+  box-shadow:0 0 30px var(--red-glow),0 8px 24px rgba(0,0,0,.6);
+  transition:.3s;position:relative;overflow:hidden;
+}
+.btn-join::after{
+  content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;
+  background:linear-gradient(105deg,transparent,rgba(255,255,255,.35),transparent);
+  transform:skewX(-20deg);transition:.5s;
+}
+.btn-join:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 0 50px var(--red-glow),0 12px 32px rgba(0,0,0,.7)}
+.btn-join:hover::after{left:130%}
+.hero-stats{display:flex;gap:34px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+.stat{text-align:center}
+.stat b{font-family:'Orbitron';font-size:1.4rem;color:#ff6b6b;display:block}
+.stat span{color:var(--muted);font-size:.8rem;letter-spacing:2px;text-transform:uppercase}
+
+/* ================= FORMS ================= */
+.card{
+  background:linear-gradient(160deg,var(--card),var(--card2));
+  border:1px solid var(--border);border-radius:18px;
+  padding:clamp(22px,4vw,44px);
+  box-shadow:0 20px 60px rgba(0,0,0,.55);
+}
+.card h2{
+  text-align:center;font-size:clamp(1.2rem,4vw,1.8rem);letter-spacing:3px;margin-bottom:6px;
+  text-shadow:0 0 22px var(--red-glow);
+}
+.card .sub{text-align:center;color:var(--muted);letter-spacing:2px;margin-bottom:28px;font-size:.9rem}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.field{display:flex;flex-direction:column;gap:7px}
+.field.full{grid-column:1/-1}
+label{font-weight:600;letter-spacing:1.5px;font-size:.85rem;text-transform:uppercase;color:#cfcfda}
+label .req{color:var(--red)}
+input,select,textarea{
+  background:#0a0a0d;border:1px solid var(--border);border-radius:10px;
+  padding:13px 15px;color:#fff;font-family:'Rajdhani';font-size:1.02rem;font-weight:500;
+  transition:.25s;outline:none;width:100%;
+}
+input:focus,select:focus{border-color:var(--red);box-shadow:0 0 16px rgba(255,45,45,.25)}
+input::placeholder{color:#565661}
+select option{background:#121216}
+.err{color:#ff7070;font-size:.8rem;letter-spacing:.5px;min-height:14px;font-weight:600}
+.upload-box{
+  border:1.5px dashed rgba(255,45,45,.45);border-radius:12px;padding:18px;
+  text-align:center;cursor:pointer;transition:.25s;background:rgba(255,45,45,.03);
+}
+.upload-box:hover{border-color:var(--red);background:rgba(255,45,45,.07)}
+.upload-box p{color:var(--muted);font-size:.9rem;margin-bottom:8px}
+.upload-box input{display:none}
+.preview-img{
+  max-width:150px;max-height:150px;border-radius:10px;margin:10px auto 0;display:none;
+  border:1px solid var(--red);box-shadow:0 0 18px rgba(255,45,45,.3);
+}
+.file-name{color:#7ee787;font-size:.82rem;font-weight:600;word-break:break-all}
+
+/* Name generator preview */
+.name-preview{
+  grid-column:1/-1;text-align:center;padding:18px;border-radius:14px;
+  background:radial-gradient(circle at center,rgba(255,45,45,.14),transparent 75%);
+  border:1px solid rgba(255,45,45,.35);
+}
+.name-preview .np-label{color:var(--muted);font-size:.75rem;letter-spacing:3px;text-transform:uppercase}
+.name-preview .np-name{
+  font-family:'Orbitron';font-size:clamp(1.1rem,4vw,1.7rem);font-weight:900;letter-spacing:3px;
+  margin-top:8px;text-shadow:0 0 24px var(--red-glow);min-height:1.6em;
+}
+.btn-copy{
+  margin-top:10px;background:transparent;border:1px solid var(--red);color:#ff8b8b;
+  padding:7px 22px;border-radius:8px;font-family:'Rajdhani';font-weight:700;
+  letter-spacing:2px;cursor:pointer;transition:.25s;font-size:.85rem;
+}
+.btn-copy:hover{background:var(--red);color:#fff;box-shadow:0 0 20px var(--red-glow)}
+
+.btn-submit{
+  grid-column:1/-1;margin-top:8px;font-family:'Orbitron';font-weight:700;
+  letter-spacing:3px;font-size:1.05rem;color:#fff;border:none;cursor:pointer;
+  background:linear-gradient(135deg,#ff2d2d,#7a0000);
+  padding:17px;border-radius:12px;transition:.3s;
+  box-shadow:0 0 26px rgba(255,45,45,.4);
+}
+.btn-submit:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 0 44px var(--red-glow)}
+.btn-submit:disabled{opacity:.5;cursor:not-allowed}
+
+/* ================= SUCCESS ================= */
+.success-wrap{max-width:640px;margin:0 auto;text-align:center}
+.success-icon{
+  width:96px;height:96px;margin:0 auto 22px;border-radius:50%;
+  border:3px solid var(--green);display:flex;align-items:center;justify-content:center;
+  font-size:46px;color:var(--green);box-shadow:0 0 40px rgba(34,197,94,.4);
+  animation:popIn .5s cubic-bezier(.2,1.6,.4,1) both;
+}
+@keyframes popIn{from{transform:scale(0)}to{transform:scale(1)}}
+.success-wrap h2{color:var(--green);letter-spacing:3px;font-size:clamp(1.15rem,4vw,1.7rem);text-shadow:0 0 24px rgba(34,197,94,.4)}
+.success-wrap h3{color:#ff6b6b;margin:14px 0 24px;letter-spacing:2px;font-size:clamp(.95rem,3vw,1.2rem)}
+.detail-row{
+  display:flex;justify-content:space-between;gap:14px;padding:12px 4px;
+  border-bottom:1px solid var(--border);text-align:left;
+}
+.detail-row span{color:var(--muted);letter-spacing:1px;font-size:.85rem;text-transform:uppercase}
+.detail-row b{font-weight:700;word-break:break-word}
+
+/* ================= ADMIN ================= */
+.admin-login{max-width:440px;margin:6vh auto 0}
+.dash-top{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content
